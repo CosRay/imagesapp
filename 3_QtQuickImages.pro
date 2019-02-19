@@ -1,5 +1,6 @@
 QT += quick
 CONFIG += c++11
+TARGET = imagesapp
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -25,6 +26,7 @@ QML_IMPORT_PATH =
 QML_DESIGNER_IMPORT_PATH =
 
 # Default rules for deployment.
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
+# Default rules for deployment.
+qnx: target.path = /tmp/qtappTwo/bin
+else: unix:!android: target.path = /opt/qtappTwo/bin
 !isEmpty(target.path): INSTALLS += target
