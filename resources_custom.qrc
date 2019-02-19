@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/RurAnime.gif</file>
+        <file>Images/RurCover.jpg</file>
+        <file>Images/RurPortrait.jpg</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>
