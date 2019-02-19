@@ -6,7 +6,7 @@ TARGET = imagesapp
 # any Qt feature that has been marked deprecated (the exact warnings
 # depend on your compiler). Refer to the documentation for the
 # deprecated API to know how to port your code away from it.
-DEFINES += QT_DEPRECATED_WARNINGS
+#DEFINES += QT_DEPRECATED_WARNINGS
 
 # You can also make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -19,13 +19,7 @@ SOURCES += \
 RESOURCES += qml.qrc \
     resources_custom.qrc
 
-# Additional import path used to resolve QML modules in Qt Creator's code model
-QML_IMPORT_PATH =
 
-# Additional import path used to resolve QML modules just for Qt Quick Designer
-QML_DESIGNER_IMPORT_PATH =
-
-# Default rules for deployment.
 # Default rules for deployment.
 qnx: target.path = /tmp/qtappTwo/bin
 else: unix:!android: target.path = /opt/qtappTwo/bin
